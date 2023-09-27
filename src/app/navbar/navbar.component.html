@@ -1,0 +1,19 @@
+<div class="navbarContainer">
+  <div class="heading">
+    <img class="mainLogo" src="../../assets/icons8-wrauter.svg" alt="mainIcon">
+    <h1>Rent</h1>    
+    <div class="hamburgerBtn">
+        <div class="hrLine"></div>
+        <div class="hrLine"></div>
+        <div class="hrLine"></div>
+    </div>
+</div>
+  <div class="optionsContainer">
+    <div *ngFor="let option of settingOptions">
+      <div class="optionsWrapper">
+        <img class="optionsLogo" src="../../assets/Home.svg" alt="dashboard">
+        <div class="options">{{option.name}}</div>
+      </div>
+    </div>
+  </div>
+</div>

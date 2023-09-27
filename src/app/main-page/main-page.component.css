@@ -1,0 +1,9 @@
+.mainWrapper{
+    display: flex;
+}
+.leftWrapper{
+    width: 200px;
+}
+.rightWrapper{
+    width: 100%;
+}
