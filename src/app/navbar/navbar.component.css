@@ -6,11 +6,12 @@
 }
 .optionsContainer{
     background-color: rgb(48 58 82);
-    color: #fff;
+    color: #bababa;
+    font-size: 14px;
     text-align: center;
 }
 .optionsWrapper{
-    padding: 25px 0;
+    padding: 15px 0;
 }
 .mainLogo{
     width: 50px;
@@ -27,5 +28,5 @@
     margin: 3px;
 }
 .optionsLogo{
-    height: 40px;
+    height: 30px;
 }

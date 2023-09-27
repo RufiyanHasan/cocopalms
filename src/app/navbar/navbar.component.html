@@ -10,8 +10,8 @@
 </div>
   <div class="optionsContainer">
     <div *ngFor="let option of settingOptions">
-      <div class="optionsWrapper">
-        <img class="optionsLogo" src="../../assets/Home.svg" alt="dashboard">
+      <div class="optionsWrapper" id="{{option.id}}">
+        <img class="optionsLogo" src="../../assets/{{option.icons}}.svg" alt="dashboard">
         <div class="options">{{option.name}}</div>
       </div>
     </div>
