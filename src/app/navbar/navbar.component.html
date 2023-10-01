@@ -9,10 +9,46 @@
     </div>
 </div>
   <div class="optionsContainer">
-    <div *ngFor="let option of settingOptions">
-      <div class="optionsWrapper" id="{{option.id}}">
-        <img class="optionsLogo" src="../../assets/{{option.icons}}.svg" alt="dashboard">
-        <div class="options">{{option.name}}</div>
+    <div>
+      <div class="optionsWrapper" routerLink="/dashboard" routerLinkActive="activebutton" id="1">
+        <img class="optionsLogo" src="../../assets/Home.svg" alt="dashboard">
+        <div class="options">Dashboard</div>
+      </div>
+      <div class="optionsWrapper" routerLink="/properties" routerLinkActive="activebutton" id="2">
+        <img class="optionsLogo" src="../../assets/BuildingOffice.svg" alt="dashboard">
+        <div class="options">Properties</div>
+      </div>
+      <div class="optionsWrapper" routerLink="tenants" routerLinkActive="activebutton" id="3">
+        <img class="optionsLogo" src="../../assets/Users.svg" alt="dashboard">
+        <div class="options">Tenants</div>
+      </div>
+      <div class="optionsWrapper" routerLink="invoices" routerLinkActive="activebutton" id="4">
+        <img class="optionsLogo" src="../../assets/ArrowRightOnRectangle.svg" alt="dashboard">
+        <div class="options">Invoices</div>
+      </div>
+      <div class="optionsWrapper" routerLink="expenses" routerLinkActive="activebutton" id="5">
+        <img class="optionsLogo" src="../../assets/Wallet.svg" alt="dashboard">
+        <div class="options">Expenses</div>
+      </div>
+      <div class="optionsWrapper" routerLink="maintenance" routerLinkActive="activebutton" id="6">
+        <img class="optionsLogo" src="../../assets/WrenchScrewdriver.svg" alt="dashboard">
+        <div class="options">Maintenance</div>
+      </div>
+      <div class="optionsWrapper" routerLink="announcemants" routerLinkActive="activebutton" id="7">
+        <img class="optionsLogo" src="../../assets/Share.svg" alt="dashboard">
+        <div class="options">Announcements</div>
+      </div>
+      <div class="optionsWrapper" routerLink="reports" routerLinkActive="activebutton" id="8">
+        <img class="optionsLogo" src="../../assets/ChartBar.svg" alt="dashboard">
+        <div class="options">Reports</div>
+      </div>
+      <div class="optionsWrapper" routerLink="logs" routerLinkActive="activebutton" id="9">
+        <img class="optionsLogo" src="../../assets/InformationCircle.svg" alt="dashboard">
+        <div class="options">Logs</div>
+      </div>
+      <div class="optionsWrapper" routerLink="account" routerLinkActive="activebutton" id="10">
+        <img class="optionsLogo" src="../../assets/User.svg" alt="dashboard">
+        <div class="options">Account</div>
       </div>
     </div>
   </div>

@@ -1,0 +1,70 @@
+.headerWrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.3);
+    align-items: center;
+}
+.logedInDetails{
+    padding-left: 15px;
+    font-size: 14px;
+}
+.headerContents{
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+}
+.headerImg{
+    height: 20px;
+}
+.settings, .notification, .userProfile{
+    display: flex;
+    padding-right: 20px;
+    position: relative;
+    align-items: center;
+}
+.indicator{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 18px;
+    position: absolute;
+    padding-top: 2px;
+    top: -8px;
+    right: 0px;
+    font-size: 14px;
+    text-align: center;
+}
+.notification{
+    padding-left: 10px;
+}
+.notification .indicator{
+    right: 8px;
+}
+.headerImgUser{
+    height: 40px;
+}
+.userProfile{
+    padding-left: 20px;
+}
+.userName{
+    padding: 0 15px 0 5px;
+}
+.userName::after{
+    content: '';
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    vertical-align: super;
+    padding: 3px;
+    margin-left: 10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.language{
+    padding-right: 10px;
+}
+.userName, .language{
+    font-size: 14px;
+}

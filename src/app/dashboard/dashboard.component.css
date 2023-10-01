@@ -1,0 +1,101 @@
+.dashboardWrapper{
+    background-color: lightgrey;
+    padding: 20px;
+}
+.breadCrumb{
+    padding: 10px 0;
+    font-size: 14px;
+}
+.home, .separate{
+    color: grey;
+}
+.separate{
+    padding: 0 8px;
+}
+.dashboard{
+    font-weight: bold;
+}
+.optionsLogo{
+    height: 30px;
+}
+.quickBtnsWrapper{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quickBtns{
+    color: orangered;
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.allBtns{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.leftBtns,.centerBtns, .rightBtns{
+    text-align: center;
+}
+.quickOption{
+    padding: 15px 0;
+}
+.occupancyRate{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.OccupancyText{
+    color: orangered;
+    text-transform: uppercase;
+    padding: 3px 0;
+}
+.percent{
+    border-radius: 50%;
+    border: 4px solid orange;
+    width: 60px;
+    margin: 0 auto;
+    font-size: 12px;
+    height: 60px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.percentage{
+    position: absolute;
+    top: 38%;
+    right: 18%;
+}
+.dashBoardDetails{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.noOfProperties, .noOfTenants, .tenantsPaymentNotRec, .totalIncome{
+    background-color: white;
+    padding: 20px;
+    width: 23%;
+}
+.detailsText{
+    text-transform: uppercase;
+    color: grey;
+    font-size: 14px;
+}
+.propertyNumWrapper, .numOfTenants, .netIncomeDigits{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.detailsNumber{
+    font-size: 24px;
+    padding-left: 20px;
+}
+.detailsLogo{
+    background-color: #37d159;
+    padding: 10px;
+}
+.detailsLogo.notPaid{
+    background-color: #ff507a;
+}

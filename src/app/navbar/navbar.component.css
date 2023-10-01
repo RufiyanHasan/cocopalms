@@ -1,32 +1,42 @@
-.heading{
-    background-color: #C7EA46;
-    padding: 5px 20px;
-    display: flex;
-    align-items: center;
+.heading {
+  background-color: #c7ea46;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  height: 60px;
 }
-.optionsContainer{
-    background-color: rgb(48 58 82);
-    color: #bababa;
-    font-size: 14px;
-    text-align: center;
+.optionsContainer {
+  background-color: rgb(48 58 82);
+  color: #bababa;
+  font-size: 14px;
+  text-align: center;
+  height: calc(100vh - 60px);
+  overflow: auto;
 }
-.optionsWrapper{
-    padding: 15px 0;
+.optionsWrapper {
+  padding: 15px 0;
 }
-.mainLogo{
-    width: 50px;
+.mainLogo {
+  width: 50px;
 }
-.hamburgerBtn{
-    padding-left: 10px;
-    display: flex;
-    flex-direction: column;
+.hamburgerBtn {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
 }
-.hrLine{
-    width: 20px;
-    height: 2px;
-    background-color: black;
-    margin: 3px;
+.hrLine {
+  width: 20px;
+  height: 2px;
+  background-color: black;
+  margin: 3px;
 }
-.optionsLogo{
-    height: 30px;
+.optionsLogo {
+  height: 30px;
+}
+.activebutton {
+    box-shadow: inset 0 1px 0 0 #dcecfb;
+    background: #bddbfa linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+    border: 1px solid #84bbf3;
+    color: #ffffff;
+    text-shadow: 0 1px 0 #528ecc;
 }
