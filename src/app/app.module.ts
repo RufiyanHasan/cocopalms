@@ -7,6 +7,14 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { PropertiesComponent } from './properties/properties.component';
+import {
+  FormsModule,
+  ReactiveFormsModule,
+} from '@angular/forms';
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 
 @NgModule({
   declarations: [
@@ -14,13 +22,19 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     MainPageComponent,
     NavbarComponent,
     HeaderComponent,
-    DashboardComponent
+    DashboardComponent,
+    PropertiesComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatInputModule,
+    MatFormFieldModule,
+    BrowserAnimationsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

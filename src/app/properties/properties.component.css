@@ -1,0 +1,41 @@
+.propertyWrapper {
+  background-color: lightgrey;
+  padding: 20px;
+}
+.breadCrumb {
+  padding: 10px 0;
+  font-size: 14px;
+}
+.home,
+.separate {
+  color: grey;
+}
+.separate {
+  padding: 0 8px;
+}
+.property {
+  font-weight: bold;
+}
+.properties {
+  font-size: 24px;
+  color: gray;
+  background-color: white;
+  padding: 10px;
+}
+.propertyDetails {
+  background-color: white;
+  margin-top: 20px;
+  padding: 20px 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  overflow: auto;
+  height: calc(100vh - 200px);
+}
+.property-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+.property-full-width {
+  width: 100%;
+}

@@ -1,0 +1,90 @@
+<div class="propertyWrapper">
+  <div class="breadCrumb">
+    <span class="home">Home</span>
+    <span class="separate">/</span>
+    <span class="property">Properties</span>
+  </div>
+  <div class="properties">Properties</div>
+  <div class="propertyDetails">
+    <div>Property Details</div>
+    <div>{{ propertyDetails.value | json }}</div>
+    <form [formGroup]="propertyDetails" class="property-form" (ngSubmit)="addpropertyDetails()">
+      <mat-form-field class="property-full-width">
+        <mat-label>Property Name</mat-label>
+        <input type="text" matInput 
+               placeholder="Property Name" formControlName="propertyName">
+      </mat-form-field>
+      <mat-form-field class="property-full-width">
+        <mat-label>Governorate</mat-label>
+        <input type="text" matInput 
+               placeholder="Property Name" formControlName="governorate">
+      </mat-form-field>
+      <mat-form-field class="property-full-width">
+        <mat-label>City</mat-label>
+        <input type="text" matInput 
+               placeholder="City" formControlName="city">
+      </mat-form-field>
+      <mat-form-field class="property-full-width">
+        <mat-label>Block</mat-label>
+        <input type="text" matInput 
+               placeholder="Block" formControlName="block">
+      </mat-form-field>
+      <mat-form-field class="property-full-width">
+        <mat-label>Street</mat-label>
+        <input type="text" matInput 
+               placeholder="Street" formControlName="street">
+      </mat-form-field>
+      <mat-form-field class="property-full-width">
+        <mat-label>Property Number</mat-label>
+        <input type="text" matInput 
+               placeholder="Property Number" formControlName="propertyNumber">
+      </mat-form-field>
+      <mat-form-field class="property-full-width">
+        <mat-label>Property Civil Id</mat-label>
+        <input type="text" matInput 
+               placeholder="Property Civil Id" formControlName="propertyCivilId">
+      </mat-form-field>
+      <mat-form-field class="property-full-width">
+        <mat-label>Property Type</mat-label>
+        <input type="text" matInput 
+               placeholder="Property Type" formControlName="propertyType">
+      </mat-form-field>
+      <mat-form-field class="property-full-width">
+        <mat-label>Year Build</mat-label>
+        <input type="text" matInput 
+               placeholder="Year Build" formControlName="yearBuild">
+      </mat-form-field>
+      <mat-form-field class="property-full-width">
+        <mat-label>Size M2</mat-label>
+        <input type="text" matInput 
+               placeholder="Size M2" formControlName="sizeM2">
+      </mat-form-field>
+      <mat-form-field class="property-full-width">
+        <mat-label>Description</mat-label>
+        <input type="text" matInput 
+               placeholder="Description" formControlName="description">
+      </mat-form-field>
+      <mat-form-field class="property-full-width">
+        <mat-label>Status</mat-label>
+        <input type="text" matInput 
+               placeholder="Status" formControlName="status">
+      </mat-form-field>
+      <mat-form-field class="property-full-width">
+        <mat-label>Deposit Rental Yeilds</mat-label>
+        <input type="text" matInput 
+               placeholder="Deposit Rental Yeilds" formControlName="depositRentalYeilds">
+      </mat-form-field>
+      <mat-form-field class="property-full-width">
+        <mat-label>Property Book Value</mat-label>
+        <input type="text" matInput 
+               placeholder="Property Book Value" formControlName="propertyBookValue">
+      </mat-form-field>
+      <mat-form-field class="property-full-width">
+        <mat-label>Property Estimate Value</mat-label>
+        <input type="text" matInput 
+               placeholder="Property Estimate Value" formControlName="propertyEstimatedValue">
+      </mat-form-field>
+      <button>Submit</button>
+    </form>
+  </div>
+</div>
