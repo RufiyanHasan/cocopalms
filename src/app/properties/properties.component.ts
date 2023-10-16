@@ -15,7 +15,7 @@ export class PropertiesComponent {
 
   ngOnInit(){
     this.propertyDetails = this.fb.group({
-      propertyName: [''],
+      propertyName: ['', Validators.required],
       governorate: [''],
       city: [''],
       block: [''],

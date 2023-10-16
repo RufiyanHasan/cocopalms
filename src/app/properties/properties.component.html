@@ -11,9 +11,12 @@
     <form [formGroup]="propertyDetails" class="property-form" (ngSubmit)="addpropertyDetails()">
       <mat-form-field class="property-full-width">
         <mat-label>Property Name</mat-label>
-        <input type="text" matInput 
+        <input type="text" matInput
                placeholder="Property Name" formControlName="propertyName">
       </mat-form-field>
+      <div *ngIf="propertyDetails.get('propertyName')?.hasError('required')">
+        <div class="text-danger">Property Name is required.</div>
+      </div>
       <mat-form-field class="property-full-width">
         <mat-label>Governorate</mat-label>
         <input type="text" matInput 
@@ -84,7 +87,7 @@
         <input type="text" matInput 
                placeholder="Property Estimate Value" formControlName="propertyEstimatedValue">
       </mat-form-field>
-      <button>Submit</button>
+      <button mat-raised-button color="primary" [disabled]="propertyDetails.invalid">Submit</button>
     </form>
   </div>
 </div>
